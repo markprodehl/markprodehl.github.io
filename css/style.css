@@ -1,0 +1,54 @@
+body {
+    background-color: #efee7;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia,"Times New Roman",
+             Times,serif;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+h1 {
+    color: #eee;
+    background-color: #333333;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 28px;
+}
+
+h2 {font-size: 24px;
+}
+
+/*this will change the link color to red*/
+a {
+    color: #d21034;
+}
+/*Make the container have a width of 1024 pixels, and center it. You do this using `margin: 0 auto;*/
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+/*Make `#main-bio`, `#contact-info`, `#bio-image` all `float: left`*/
+#main-bio,
+#contact-info,
+#bio-image {
+    float: left;
+}
+/*main-bio and contact-info need equal 100% to take up the row*/
+#main-bio {
+    width: 70%;
+}
+
+#contact-info {
+    width: 30%;
+}
+/*sets the right side of the image further from the text
+Keeps the image size at 200 x 200*/
+#bio-image {
+    margin-right: 20px;
+    width: 200px;
+    heigth: 200px;
+}
+
